@@ -1,7 +1,3 @@
-#take a file name as an arguement. This function should attempt to open file, catch error. Read line by line. Each line appended to a list and return list. Each element will be a string of each element.
-
-#It is implied by the example in the project that unsupported operators are those other than + and - so this is how it has been programed.
-
 def readFile(L,fileName):
   with open(fileName,"r") as f:
     data = f.read().split('\n')
